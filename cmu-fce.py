@@ -118,11 +118,12 @@ def main(argv):
     exclude, verbose = False, False
     for (opt, arg) in opts:
         if (opt == '-h'):
-            print('example.py -n <coursenumber>')
+            print('example.py -n <course number>')
             print("")
             print('Flags:')
+            print("-n <course number>")
             print("-e exclude summer semester")
-            print("-t no. of results in summary (default=6)")
+            print("-t <number of entries in summary> (default=6)")
             print("-v verbose")
             print("-h help")
             sys.exit(2)

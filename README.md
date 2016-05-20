@@ -3,6 +3,8 @@ Python script that allows users to lookup FCE information quickly. Prints outs a
 ## Usage
 `python cmu-fce.py -n 15462 -e`
 ### Flags
+`-n` : Course number (e.g. 18290)
+
 `-h` : View help
 
 `-t` : Number of entries taken into account in summary statistics (default is 6)

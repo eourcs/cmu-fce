@@ -3,7 +3,7 @@ import os
 import glob
 from enum import Enum
 
-# Calvin Giroud
+# eourcs
 # CMU-FCE
 # Python script that allows users to look up FCE information quickly
 # Returns a nicely formatted summary enumerating avg. hrs/week and avg. rating

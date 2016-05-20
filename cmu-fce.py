@@ -66,7 +66,7 @@ def print_info(data):
     
     # Padding
     col_width = [len(x) + PADDING for x in data[0]]
-    col_width[2] = max(list(map(lambda x : len(x[2]), data))) + 2
+    col_width[2] = max(list(map(lambda x : len(x[2]), data)))
    
     # Print table
     for elem in data:
